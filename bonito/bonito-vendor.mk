@@ -260,7 +260,6 @@ PRODUCT_PACKAGES += \
     SprintHM \
     TetheringEntitlement \
     USCCDM \
-    VzwOmaTrigger \
     WfcActivation
 
 # Prebuilt product jars
