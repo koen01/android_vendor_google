@@ -1463,6 +1463,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/sunfish/proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.uceservice@2.1.so \
     vendor/google/sunfish/proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.uceservice@2.2.so \
     vendor/google/sunfish/proprietary/vendor/lib64/g3a.data.manager.vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/g3a.data.manager.vendor.so \
+    vendor/google/sunfish/proprietary/vendor/lib64/google_wifi_firmware_config_info_cc_proto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/google_wifi_firmware_config_info_cc_proto.so \
     vendor/google/sunfish/proprietary/vendor/lib64/liba2dpoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liba2dpoffload.so \
     vendor/google/sunfish/proprietary/vendor/lib64/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdb-fts.so \
     vendor/google/sunfish/proprietary/vendor/lib64/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbloader.so \
