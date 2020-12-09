@@ -23,7 +23,6 @@ PRODUCT_PACKAGES += \
     CarrierSettings \
     CarrierSetup \
     CarrierWifi \
-    CNEService \
     ConnMO \
     datastatusnotification \
     DCMO \
@@ -41,7 +40,6 @@ PRODUCT_PACKAGES += \
     MyVerizonServices \
     OBDM_Permissions \
     obdm_stub \
-    OemDmTrigger \
     QAS_DVC_MSP_VZW \
     QtiTelephonyService \
     qcrilmsgtunnel \
