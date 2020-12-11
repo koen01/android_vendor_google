@@ -135,6 +135,34 @@ PRODUCT_COPY_FILES += \
     vendor/google/sunfish/proprietary/system_ext/etc/permissions/uimremoteclient.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/uimremoteclient.xml \
     vendor/google/sunfish/proprietary/system_ext/etc/permissions/uimremoteserver.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/uimremoteserver.xml \
     vendor/google/sunfish/proprietary/system_ext/etc/vintf/manifest/vendor.qti.hardware.radio.atcmdfwd@1.0.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/vintf/manifest/vendor.qti.hardware.radio.atcmdfwd@1.0.xml \
+    vendor/google/sunfish/proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/com.android.hotwordenrollment.common.util.jar \
+    vendor/google/sunfish/proprietary/system_ext/framework/com.qti.media.secureprocessor.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/com.qti.media.secureprocessor.jar \
+    vendor/google/sunfish/proprietary/system_ext/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar \
+    vendor/google/sunfish/proprietary/system_ext/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar \
+    vendor/google/sunfish/proprietary/system_ext/framework/:com.qualcomm.qti.imscmservice-V2.2-java.jar$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/com.qualcomm.qti.imscmservice-V2.2-java.jar \
+    vendor/google/sunfish/proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/com.qualcomm.qti.uceservice-V2.0-java.jar \
+    vendor/google/sunfish/proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.1-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/com.qualcomm.qti.uceservice-V2.1-java.jar \
+    vendor/google/sunfish/proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.2-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/com.qualcomm.qti.uceservice-V2.2-java.jar \
+    vendor/google/sunfish/proprietary/system_ext/framework/qcrilhook.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/qcrilhook.jar \
+    vendor/google/sunfish/proprietary/system_ext/framework/qti-telephony-hidl-wrapper.jar;$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/qcrilhookqti-telephony-hidl-wrapper.jar \
+    vendor/google/sunfish/proprietary/system_ext/framework/qti-telephony-utils.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/qti-telephony-utils.jar \
+    vendor/google/sunfish/proprietary/system_ext/framework/RadioConfigLib.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/RadioConfigLib.jar \
+    vendor/google/sunfish/proprietary/system_ext/framework/uimremoteclientlibrary.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/uimremoteclientlibrary.jar \
+    vendor/google/sunfish/proprietary/system_ext/framework/uimremoteserverlibrary.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/uimremoteserverlibrary.jar \
+    vendor/google/sunfish/proprietary/system_ext/framework/vendor.qti.data.slm-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.data.slm-V1.0-java.jar \
+    vendor/google/sunfish/proprietary/system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.hardware.alarm-V1.0-java.jar \
+    vendor/google/sunfish/proprietary/system_ext/framework/vendor.qti.hardware.data.connection-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.hardware.data.connection-V1.0-java.jar \
+    vendor/google/sunfish/proprietary/system_ext/framework/vendor.qti.hardware.data.connection-V1.1-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.hardware.data.connection-V1.1-java.jar \
+    vendor/google/sunfish/proprietary/system_ext/framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar \
+    vendor/google/sunfish/proprietary/system_ext/framework/vendor.qti.hardware.data.iwlan-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.hardware.data.iwlan-V1.0-java.jar \
+    vendor/google/sunfish/proprietary/system_ext/framework/vendor.qti.hardware.data.latency-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.hardware.data.latency-V1.0-java.jar \
+    vendor/google/sunfish/proprietary/system_ext/framework/vendor.qti.ims.callcapability-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.ims.callcapability-V1.0-java.jar \
+    vendor/google/sunfish/proprietary/system_ext/framework/vendor.qti.ims.callinfo-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.ims.callinfo-V1.0-java.jar \
+    vendor/google/sunfish/proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar \
+    vendor/google/sunfish/proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V1.1-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.ims.rcsconfig-V1.1-java.jar \
+    vendor/google/sunfish/proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V2.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.ims.rcsconfig-V2.0-java.jar \
+    vendor/google/sunfish/proprietary/system_ext/framework/vendor.qti.latency-V2.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.latency-V2.0-java.jar \
+    vendor/google/sunfish/proprietary/system_ext/framework/vendor.qti.voiceprint-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.voiceprint-V1.0-java.jar \
     vendor/google/sunfish/proprietary/system_ext/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/google/sunfish/proprietary/system_ext/lib/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/google/sunfish/proprietary/system_ext/lib/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.imscmservice@2.0.so \
@@ -730,6 +758,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/sunfish/proprietary/vendor/etc/init/qcrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrild.rc \
     vendor/google/sunfish/proprietary/vendor/etc/init/qdcmss.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qdcmss.rc \
     vendor/google/sunfish/proprietary/vendor/etc/init/rebootescrow-citadel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rebootescrow-citadel.rc \
+    vendor/google/sunfish/proprietary/vendor/etc/init/vendor.google.google_battery@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.google.google_battery@1.0-service.rc \
     vendor/google/sunfish/proprietary/vendor/etc/init/vendor.google.radioext@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.google.radioext@1.0-service.rc \
     vendor/google/sunfish/proprietary/vendor/etc/init/vendor.google.wifi_ext@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.google.wifi_ext@1.0-service.rc \
     vendor/google/sunfish/proprietary/vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc \
@@ -1866,6 +1895,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/sunfish/proprietary/vendor/radio/qcril_database/upgrade/11_remove_fr_orange.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/11_remove_fr_orange.sql \
     vendor/google/sunfish/proprietary/vendor/radio/qcril_database/upgrade/12_israel_normal_ecc.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/12_israel_normal_ecc.sql \
     vendor/google/sunfish/proprietary/vendor/radio/qcril_database/upgrade/13_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/13_version_update_ecc_table.sql \
+    vendor/google/sunfish/proprietary/vendor/radio/qcril_database/upgrade/14_add_fr_normal_ecc.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/13_version_update_ecc_table.sql \
+    vendor/google/sunfish/proprietary/vendor/radio/qcril_database/upgrade/15_fr_normal_ecc_on_wifi.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/15_fr_normal_ecc_on_wifi.sql \
     vendor/google/sunfish/proprietary/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg.version:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/mpss/readonly/vendor/mbn/mcfg.version \
     vendor/google/sunfish/proprietary/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_hw/mbn_hw.dig:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/mpss/readonly/vendor/mbn/mcfg_hw/mbn_hw.dig \
     vendor/google/sunfish/proprietary/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_hw/mbn_hw.txt:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/mpss/readonly/vendor/mbn/mcfg_hw/mbn_hw.txt \
