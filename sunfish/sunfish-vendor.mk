@@ -1771,7 +1771,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/sunfish/proprietary/vendor/lib64/vendor.display.config@1.10.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.10.so \
     vendor/google/sunfish/proprietary/vendor/lib64/vendor.display.config@1.11.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.11.so \
     vendor/google/sunfish/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0.so \
-    vendor/google/sunfish/proprietary/vendor/lib64/vendor.google.google_battery@1.0.so:$(TARGET_COPY_OUT_VENDOR)/vendor.google.google_battery@1.0.so \
+    vendor/google/sunfish/proprietary/vendor/lib64/vendor.google.google_battery@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.google.google_battery@1.0.so \
     vendor/google/sunfish/proprietary/vendor/lib64/vendor.google.radioext@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.google.radioext@1.0.so \
     vendor/google/sunfish/proprietary/vendor/lib64/vendor.google.radioext@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.google.radioext@1.1.so \
     vendor/google/sunfish/proprietary/vendor/lib64/vendor.google.radioext@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.google.radioext@1.2.so \
