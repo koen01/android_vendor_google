@@ -444,6 +444,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "gpu_profiling_vulkan_layer",
+	owner: "google",
+	apk: "proprietary/vendor/app/gpu_profiling_vulkan_layer/gpu_profiling_vulkan_layer.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
 	name: "IWlanService",
 	owner: "google",
 	apk: "proprietary/vendor/app/IWlanService/IWlanService.apk",
