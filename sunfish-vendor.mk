@@ -401,35 +401,15 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     SSRestartDetector \
-    Tycho \
-    VZWAPNLib \
     AmbientSensePrebuilt \
-    AppDirectedSMSService \
-    CarrierLocation \
-    CarrierServices \
     CarrierSettings \
-    CarrierWifi \
-    ConnMO \
-    DCMO \
-    DMService \
     DevicePersonalizationPrebuiltPixel4 \
     DiagMon \
     EuiccGoogle \
     EuiccSupportPixel \
-    GCS \
     HardwareInfo \
     HotwordEnrollmentOKGoogleRT5514P \
     HotwordEnrollmentXGoogleRT5514P \
-    MyVerizonServices \
-    OBDM_Permissions \
-    OemDmTrigger \
-    SCONE \
-    SprintDM \
-    SprintHM \
-    TetheringEntitlement \
-    USCCDM \
-    WfcActivation \
-    obdm_stub \
     QtiTelephonyService \
     atfwd \
     com.qualcomm.qti.services.secureui \
@@ -437,10 +417,7 @@ PRODUCT_PACKAGES += \
     uceShimService \
     uimremoteclient \
     uimremoteserver \
-    CarrierSetup \
     LLKAgent \
-    RilConfigService \
-    grilservice \
     ims \
     qcrilmsgtunnel \
     vendor.qti.hardware.radio.atcmdfwd@1.0
