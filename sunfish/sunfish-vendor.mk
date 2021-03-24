@@ -28,7 +28,6 @@ PRODUCT_PACKAGES += \
     OemDmTrigger \
     SSRestartDetector \
     TetheringEntitlement \
-    WfcActivation
 
 # Prebuilt system_ext apps
 PRODUCT_PACKAGES += \
