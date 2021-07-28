@@ -17,17 +17,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "Tycho",
-	owner: "google",
-	apk: "proprietary/product/app/Tycho/Tycho.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	product_specific: true,
-}
-
-android_app_import {
 	name: "VZWAPNLib",
 	owner: "google",
 	apk: "proprietary/product/app/VZWAPNLib/VZWAPNLib.apk",
@@ -39,69 +28,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "AmbientSensePrebuilt",
-	owner: "google",
-	apk: "proprietary/product/priv-app/AmbientSensePrebuilt/AmbientSensePrebuilt.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
 	name: "AppDirectedSMSService",
 	owner: "google",
 	apk: "proprietary/product/priv-app/AppDirectedSMSService/AppDirectedSMSService.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
-	name: "CarrierLocation",
-	owner: "google",
-	apk: "proprietary/product/priv-app/CarrierLocation/CarrierLocation.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
-	name: "CarrierServices",
-	owner: "google",
-	apk: "proprietary/product/priv-app/CarrierServices/CarrierServices.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
-	name: "CarrierSettings",
-	owner: "google",
-	apk: "proprietary/product/priv-app/CarrierSettings/CarrierSettings.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
-	name: "CarrierWifi",
-	owner: "google",
-	apk: "proprietary/product/priv-app/CarrierWifi/CarrierWifi.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -195,18 +124,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "GCS",
-	owner: "google",
-	apk: "proprietary/product/priv-app/GCS/GCS.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
 	name: "HardwareInfo",
 	owner: "google",
 	apk: "proprietary/product/priv-app/HardwareInfo/HardwareInfo.apk",
@@ -279,18 +196,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "SCONE",
-	owner: "google",
-	apk: "proprietary/product/priv-app/SCONE/SCONE.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
 	name: "SprintDM",
 	owner: "google",
 	apk: "proprietary/product/priv-app/SprintDM/SprintDM.apk",
@@ -315,34 +220,10 @@ android_app_import {
 }
 
 android_app_import {
-	name: "TetheringEntitlement",
-	owner: "google",
-	apk: "proprietary/product/priv-app/TetheringEntitlement/TetheringEntitlement.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
 	name: "USCCDM",
 	owner: "google",
 	apk: "proprietary/product/priv-app/USCCDM/USCCDM.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
-	name: "WfcActivation",
-	owner: "google",
-	apk: "proprietary/product/priv-app/WfcActivation/WfcActivation.apk",
-	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -455,30 +336,6 @@ android_app_import {
 	name: "LLKAgent",
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/LLKAgent/LLKAgent.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "RilConfigService",
-	owner: "google",
-	apk: "proprietary/system_ext/priv-app/RilConfigService/RilConfigService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "grilservice",
-	owner: "google",
-	apk: "proprietary/system_ext/priv-app/grilservice/grilservice.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
