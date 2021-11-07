@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/sunfish/system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:google \
     vendor/google_devices/sunfish/system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml:google \
     vendor/google_devices/sunfish/system_ext/etc/permissions/com.qualcomm.qti.izattools.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.izattools.xml:google \
-    vendor/google_devices/sunfish/system_ext/etc/permissions/google-ril.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/google-ril.xml:google \
     vendor/google_devices/sunfish/system_ext/etc/permissions/izat.xt.srv.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/izat.xt.srv.xml:google \
     vendor/google_devices/sunfish/system_ext/etc/permissions/org_codeaurora_ims.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/org_codeaurora_ims.xml:google \
     vendor/google_devices/sunfish/system_ext/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qcrilhook.xml:google \

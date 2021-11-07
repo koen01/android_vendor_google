@@ -68,7 +68,6 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.constants-V1.0-java \
     com.quicinc.cne.constants-V2.0-java \
     com.quicinc.cne.constants-V2.1-java \
-    google-ril \
     izat.xt.srv \
     qcrilhook \
     qmapbridge \
@@ -127,8 +126,6 @@ PRODUCT_PACKAGES += \
     android.hardware.authsecret@1.0.vendor \
     android.hardware.biometrics.fingerprint@2.2.vendor \
     android.hardware.bluetooth@1.0.vendor \
-    android.hardware.camera.provider@2.7-impl \
-    android.hardware.camera.provider@2.7-service_64 \
     android.hardware.gatekeeper@1.0.vendor \
     android.hardware.gnss@2.1.vendor \
     android.hardware.graphics.composer@2.4.vendor \
